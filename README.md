@@ -22,7 +22,8 @@ sample run:
 python unique.py --file=big_file.txt --output="ooo.txt
 
 Algorithm:
-	Declare a hashSet which stores md5 and length of a line
+
+	Create a hashSet which stores md5 and length of a line
 	
 	for each line in the file:
 		compute (md5, len) of the line
